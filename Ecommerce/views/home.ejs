@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Home Page</title>
+<h1 style=" text-align: center; color: purple;">SHOP</h1>
+    <style type="text/css" media="screen">
+        body {
+            font-size:2em; 
+        }
+
+ </style>
+<h2><a href="#" style="text-decoration: none">ADD-PRODUCTS</a></h2><br>
+</head>
+  
+<body>
+ <% data.forEach(entry => { %>
+ 
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjUUz2KYkQpzkKSNs1RrLlbQohBrNoK2ig-w&usqp=CAU" alt="Italian Trulli"><br>
+ ID<%= entry.id %>:<%= entry.manufacturer %> <a href="#"><button type="button" style="background-color:purple;
+  
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;">Order</button><a><p>
+ 
+ <% }) %>
+     
+</body>
+  
+</html>
